@@ -10,6 +10,9 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/hero.css">
+  <link rel="stylesheet" href="css/advantage.css">
+  <link rel="stylesheet" href="css/calc.css">
 </head>
 <body>
   <header>
@@ -23,7 +26,7 @@
     <section class="hero section__offset" id="hero">
       <div class="container hero__container">
         <div class="hero__content gray-block">
-          <h2 class="hero__title">Приносим тепло в&nbsp; каждый дом</h2>
+          <h2 class="title hero__title">Приносим тепло в&nbsp; каждый дом</h2>
           <p class="hero__description">Устанавливаем теплые полы в&nbsp;квартирах, офисах и&nbsp;загородных домах.</p>
           <a href="#calc" class="button link hero__link">
             Рассчитать&nbsp;стоимость
@@ -43,7 +46,7 @@
     </section>
     <section class="advantage section__offset" id="advantage">
       <div class="container advantage__container">
-        <h2 class="advantage__title">Наши преимущества</h2>
+        <h2 class="title advantage__title">Наши преимущества</h2>
         <ul class="advantage__list list-reset">
           <li class="advantage__item">Надежные материалы</li>
           <li class="advantage__item">опытные монтажники</li>
@@ -57,17 +60,25 @@
     <section class="calc section__offset" id="calc">
       <div class="container calc__container">
         <div class="calc__content gray-block">
-          <h2 class="calc__title">Рассчитайте стоимость</h2>
+          <h2 class="title calc__title">Рассчитайте стоимость</h2>
 
           <form class="calc__form">
             <fieldset class="calc__fieldset calc__fieldset_size">
               <label class="calc__wrapper-input-size">
                 <span class="calc__text">Ширина помещения, м</span>
-                <input class="label__input" type="number" name="width" required>
+                <input 
+                class="calc__input-number" 
+                type="number" 
+                name="width" 
+                required>
               </label>
               <label class="calc__wrapper-input-size">
                 <span class="calc__text">Длина помещения, м</span>
-                <input class="label__input" type="number" name="length" required>
+                <input 
+                class="calc__input-number" 
+                type="number" 
+                name="length" 
+                required>
               </label>
             </fieldset>
             <fieldset class="calc__fieldset calc__fieldset_tariff">
@@ -104,10 +115,6 @@
               <span class="calc__text">Площадь</span>
               <span class="calc__text">35 кв м</span>
             </p>
-          </div>
-        </div>
-        <div class="calc__total">
-          <div class="calc__result-wrapper">
             <p class="calc__result">
               <span class="calc__text">Примерная стоимость</span>
               <span class="calc__text">42590 руб</span>
