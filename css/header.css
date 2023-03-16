@@ -14,3 +14,8 @@
   margin-bottom: 18px;
   
 }
+@media(max-width: 920px) {
+.hesder__logo {
+ width: 124px; 
+}
+}
