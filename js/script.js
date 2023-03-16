@@ -1,5 +1,5 @@
 new Swiper('.hero__slider', {
-  slidesPerview: 2,
+  slidesPerView: 2,
   spaceBetween: 10,
   loop: true,
 
