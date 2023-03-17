@@ -100,6 +100,7 @@
   border-radius: 12px;
 }
 .calc__result-wrapper {
+  display: none;
   flex-basis: 303px;
   padding: 24px;
   background: #fff;
@@ -188,6 +189,7 @@
   }
   .calc__result-wrapper {
     padding: 16px;
+    
     
   }
 }
